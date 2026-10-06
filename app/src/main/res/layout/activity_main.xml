@@ -12,6 +12,7 @@
 
 
     <TextView
+        android:id="@+id/textViewPytanie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -39,6 +40,7 @@
             android:layout_margin="5dp"
             android:textColor="#F000"
             android:onClick="sprawdzOK"
+
             />
 
         <Button
@@ -49,7 +51,9 @@
             android:backgroundTint="#807DDBE0"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:textColor="#F000"/>
+            android:textColor="#F000"
+            android:onClick="sprawdzUkryj"
+            />
 
         <Button
             android:id="@+id/button3"
@@ -59,7 +63,8 @@
             android:backgroundTint="#47C147"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:textColor="#F000"/>
+            android:textColor="#F000"
+            android:onClick="sprawdzUkryj"/>
     </LinearLayout>
 
 
@@ -77,7 +82,8 @@
             android:layout_weight="1"
             android:backgroundTint="#CA1FBD"
             android:text="rozowy"
-            android:textColor="#F000" />
+            android:textColor="#F000"
+            android:onClick="sprawdzUkryj"/>
 
         <Button
             android:id="@+id/button5"
@@ -87,7 +93,8 @@
             android:layout_weight="1"
             android:backgroundTint="#EDEDED"
             android:text="Bialy"
-            android:textColor="#F000" />
+            android:textColor="#F000"
+            android:onClick="sprawdzOK"/>
 
         <Button
             android:id="@+id/button6"
@@ -97,7 +104,8 @@
             android:layout_weight="1"
             android:backgroundTint="#D53C14"
             android:text="pomaranczowy"
-            android:textColor="#F000" />
+            android:textColor="#F000"
+            android:onClick="sprawdzUkryj"/>
     </LinearLayout>
 
 </LinearLayout>
