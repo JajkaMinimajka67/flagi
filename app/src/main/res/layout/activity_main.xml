@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Czerwone"
-            android:backgroundTint="#F00"
+            android:backgroundTint="@color/czerwony"
             android:layout_weight="1"
             android:layout_margin="5dp"
             android:textColor="#F000"
@@ -51,7 +51,7 @@
             android:backgroundTint="#807DDBE0"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:textColor="#F000"
+            android:textColor="@color/niebieski"
             android:onClick="sprawdzUkryj"
             />
 
@@ -63,7 +63,7 @@
             android:backgroundTint="#47C147"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:textColor="#F000"
+            android:textColor="@color/zielone"
             android:onClick="sprawdzUkryj"/>
     </LinearLayout>
 
@@ -82,7 +82,7 @@
             android:layout_weight="1"
             android:backgroundTint="#CA1FBD"
             android:text="rozowy"
-            android:textColor="#F000"
+            android:textColor="@color/rozowy"
             android:onClick="sprawdzUkryj"/>
 
         <Button
@@ -93,7 +93,7 @@
             android:layout_weight="1"
             android:backgroundTint="#EDEDED"
             android:text="Bialy"
-            android:textColor="#F000"
+            android:textColor="@color/bialy"
             android:onClick="sprawdzOK"/>
 
         <Button
@@ -104,7 +104,7 @@
             android:layout_weight="1"
             android:backgroundTint="#D53C14"
             android:text="pomaranczowy"
-            android:textColor="#F000"
+            android:textColor="@color/pomaranczowy"
             android:onClick="sprawdzUkryj"/>
     </LinearLayout>
 
