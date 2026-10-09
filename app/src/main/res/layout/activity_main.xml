@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:padding="8dp"
-        android:text="Wybierz kolory ktorych niema w fladze Polski"
+        android:text="@string/polecenie"
         android:textColor="#C70BAF"
         android:textSize="67sp" />
     <!--    obowiazkowo dla elementu musi byc wysokosc-->

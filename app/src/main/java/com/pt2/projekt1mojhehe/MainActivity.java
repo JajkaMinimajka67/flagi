@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sprawdzOK(View view) {
-        Toast.makeText(MainActivity.this, "ten kolor nalezy do flagi polski, nie klikaj go!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, R.string.ostrzezenie, Toast.LENGTH_SHORT).show();
     }
 
     public void sprawdzUkryj(View view) {
         view.setVisibility(INVISIBLE);
         licznikklikniec++;
         if (licznikklikniec == 4) {
-            textViewPytanie.setText("wygrales!!!!!!");
+            textViewPytanie.setText(R.string.podsumowanie);
         }
     }
 }
